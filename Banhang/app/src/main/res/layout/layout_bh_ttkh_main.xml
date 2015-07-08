@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:id="@+id/bh_main9"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:layout_margin="1dp"
+                />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/bh_main10"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_margin="1dp"
+            />
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text=" New Text"
+            android:id="@+id/bh_main11"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_margin="1dp"
+            />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text=" New Text |"
+                android:id="@+id/bh_main12"
+                android:textColor="@android:color/black"
+                android:gravity="center_horizontal"
+                android:layout_margin="1dp"
+                />
+        <TextView
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:text=" New Text |"
+            android:id="@+id/bh_main13"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_margin="1dp"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text=" New Text |"
+            android:id="@+id/bh_main14"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_margin="1dp"
+            />
+        </TableRow>
+    </TableLayout>
+
+    </LinearLayout>

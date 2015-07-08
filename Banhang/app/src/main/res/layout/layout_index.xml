@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/mainbackround">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <ImageButton
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:id="@+id/bt1"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/ic_banhang1"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="20dp" />
+
+        <ImageButton
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:id="@+id/bt2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="35dp"
+            android:layout_marginBottom="20dp"
+            android:background="@mipmap/ic_hanghoa1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="125dp"
+        android:id="@+id/linearLayout2">
+
+        <ImageButton
+            android:layout_width="160px"
+            android:layout_height="160px"
+            android:id="@+id/bt3"
+            android:layout_marginLeft="35dp"
+            android:src="@mipmap/ic_qlkh" />
+
+        <ImageButton
+            android:layout_width="175px"
+            android:layout_height="175px"
+            android:id="@+id/bt4"
+            android:layout_marginLeft="30dp"
+            android:src="@mipmap/ic_baocao" />
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/prgressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>

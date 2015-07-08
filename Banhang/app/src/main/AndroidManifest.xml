@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.banhang.bavo.banhang" >
+    <uses-sdk
+        android:targetSdkVersion="22"
+        android:minSdkVersion="14"
+        android:maxSdkVersion="22"/>
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_chinh"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="Bán hàng"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Index"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".ChitietHH"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".InsertHH"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".ShowIDHH"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".ShowKH"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".Show_ctkh"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".ThemKH"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".Banhang_ctkh"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Banhang"></activity>
+        <activity android:name=".Banhang_Showkh"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".Banhang_ctbh"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".Banhang_ct_dskh"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Tùy chọn"></activity>
+        <activity android:name=".Index_Baocao"
+            android:label="Báo cáo"></activity>
+        <activity android:name=".Baocao_showdoanhthu"
+            android:windowSoftInputMode="adjustPan"
+            android:label="Tùy chọn"></activity>
+
+    </application>
+
+</manifest>
